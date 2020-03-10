@@ -32,10 +32,10 @@ steps:
       rootFolderOrFile: $(Build.SourcesDirectory)
       includeRootFolder: false
   - task: CopyFiles@2
-    displayName: 'Copy ARM templates'
+    displayName: 'Copy ARM templates to: $(build.artifactstagingdirectory)/Templates'
     inputs:
       SourceFolder: deployment
       Contents: '*.json'
-      TargetFolder: $(build.artifactstagingdirectory)/Templates
+      TargetFolder: '$(build.artifactstagingdirectory)/Templates'
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
