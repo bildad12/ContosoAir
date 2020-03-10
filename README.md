@@ -1,5 +1,7 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
+[![Build Status](https://bildadeyong.visualstudio.com/My%20First%20Project/_apis/build/status/bildad12.ContosoAir?branchName=master)](https://bildadeyong.visualstudio.com/My%20First%20Project/_build/latest?definitionId=1&branchName=master)
+
 
 # Microsoft.Github CI Demo
 
